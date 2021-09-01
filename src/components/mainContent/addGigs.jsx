@@ -12,7 +12,7 @@ const AddGigs = ({ pages, setPages }) => {
       <div className="py-2" style={{ border: "1px solid #ECECEC" }}>
         <AddGigTitle className="px-5">Gigs</AddGigTitle>
       </div>
-      <AddGigFormSection className="px-5 py-3">
+      <AddGigFormSection className="px-4 py-3">
         <h1
           style={{
             font: "normal normal normal 25px/35px Circular Std Book",
