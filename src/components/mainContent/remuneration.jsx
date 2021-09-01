@@ -45,7 +45,7 @@ const Remuneration = ({addgigs, setAddGigs, pages, setPages}) => {
               </div>
             
             <div className="mt-3 col-12 text-end">
-                      <span className="cancel-text me-3">Back</span> <span onClick={() => setPages(!pages)} className="px-3 py-2 continue-btn text-light">Add gig</span>
+                      <span onClick={() => setAddGigs(!addgigs)} className="cancel-text me-3">Back</span> <span onClick={() => setPages(!pages)} className="px-3 py-2 continue-btn text-light">Add gig</span>
             </div>
             </form>
           </div>

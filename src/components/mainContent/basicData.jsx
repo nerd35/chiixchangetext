@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const BasicData = ({ addgigs, setAddGigs}) => {
+const BasicData = ({ addgigs, setAddGigs, pages, setPages}) => {
   return (
     <div className="py-3 ">
       <div className="row">
@@ -75,7 +75,7 @@ const BasicData = ({ addgigs, setAddGigs}) => {
 
             </div>
             <div className="mt-3 col-12 text-end">
-                      <span className="cancel-text me-3">Cancel</span> <span onClick={() => setAddGigs(!addgigs)} className="px-3 py-2 continue-btn text-light">Countinue</span>
+                      <span onClick={() => setPages(!pages)} className="cancel-text me-3">Cancel</span> <span onClick={() => setAddGigs(!addgigs)} className="px-3 py-2 continue-btn text-light">Countinue</span>
             </div>
             </form>
           </div>
