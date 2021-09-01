@@ -70,12 +70,12 @@ const BasicData = ({ addgigs, setAddGigs, pages, setPages}) => {
                     <input type="text"  placeholder="Add more tags" className="form-control taginput w-50"/>
                   </div>
                   <div className="mt-3">
-                    <span className="sugest-tag ">Suggested tags: </span><span className="sug-tags me-2">full-time</span><span className="sug-tags me-2">Contract</span><span className="sug-tags ">freelance</span>
+                    <span className="sugest-tag ">Suggested tags: </span><span className="sug-tags me-2">fulltime</span><span className="sug-tags me-2">Contract</span><span className="sug-tags ">freelance</span>
                   </div>
 
             </div>
             <div className="mt-3 col-12 text-end">
-                      <span onClick={() => setPages(!pages)} className="cancel-text me-3">Cancel</span> <span onClick={() => setAddGigs(!addgigs)} className="px-3 py-2 continue-btn text-light">Countinue</span>
+                      <span onClick={() => setPages(!pages)} className="cancel-text me-3">Cancel</span> <span onClick={() => setAddGigs(!addgigs)} className="px-3 py-2 continue-btn text-light">Continue</span>
             </div>
             </form>
           </div>
