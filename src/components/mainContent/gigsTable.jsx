@@ -5,7 +5,7 @@ import DateIcon from '../../assets/dateicon.png'
 const GigsTable = () => {
     return (
         <GigTableContainer className="px-3 mb-5">
-            <table class="table table-borderless table-responsive-sm">
+            <table class="table table-borderless">
   <thead>
     <tr style={{boxShadow: "0px 3px 6px #00000003", borderBottom: "1px solid #F6F6F6"}}>
       <th scope="col"></th>

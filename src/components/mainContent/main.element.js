@@ -84,7 +84,7 @@ export const NavIcon = styled.div`
 
 export const SidenavLogo = styled.img``;
 export const SidenavSection = styled.div`
-  margin-top: -555px;
+  margin-top: -305px;
 `;
 
 export const TopTitleSection = styled.div`
