@@ -1,0 +1,135 @@
+.addGigSideContainer {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 30px 50px #0000000d;
+  border: 1px solid #f6f6f6;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.addGigSideContainer .GigLink {
+  font: normal normal normal 20px/23px ;
+  letter-spacing: -1px;
+  color: #fbb30b;
+  opacity: 1;
+}
+
+.GigLinknon {
+  font: normal normal normal 20px/23px ;
+  letter-spacing: -1px;
+  color: #565d74;
+  opacity: 0.3;
+}
+
+.GigLinknon:hover {
+  color: #fbb30b;
+}
+
+.addGigMainContainer {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.addGigMainContainer .inputcontrol1 {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  opacity: 1;
+  color: #7e7e7e;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.addGigMainContainer .inputcontrol1::placeholder {
+  color: #000;
+}
+.addGigMainContainer .labelText {
+  font: normal normal normal 18px/22px ;
+  letter-spacing: -0.36px;
+  color: #565d74;
+  opacity: 0.7;
+}
+
+.addGigMainContainer .selectcontrol {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  opacity: 1;
+  color: #7e7e7e;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.addGigMainContainer .addressText {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  opacity: 1;
+  color: #7e7e7e;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.addGigMainContainer .addressText::placeholder {
+  color: #b7bdd1;
+}
+
+.tagsection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  opacity: 1;
+  color: #E18700;
+  
+}
+.tagsection .removetext {
+  background: #fdf2e9 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  font: normal normal bold 14px/17px Graphie;
+  letter-spacing: 0px;
+  color: #fbb30b;
+  opacity: 1;
+}
+
+.tagsection .removetext text-innter{
+  /* color: #E18700 !important; */
+}
+
+.tagsection .taginput{
+  border: none;
+  border-radius: 10px;
+  opacity: 1;
+  color: #7e7e7e;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.sugest-tag{
+  font: normal normal normal 18px/22px ;
+letter-spacing: -0.36px;
+color: #565D74;
+opacity: 0.7;
+}
+
+.sug-tags{
+  text-align: left;
+text-decoration: underline;
+font: normal normal normal 18px/22px ;
+letter-spacing: -0.36px;
+color: #565D74;
+opacity: 0.7;
+}
+
+.cancel-text{
+  font: normal normal normal 18px/26px Circular Std Book;
+letter-spacing: 0px;
+color: #565D74;
+opacity: 1;
+}
+
+.continue-btn{
+  background: #2F417E 0% 0% no-repeat padding-box;
+border: 1px solid #F6F6F6;
+border-radius: 15px;
+opacity: 1;
+}
