@@ -13,7 +13,7 @@ const Navbar = ({ toggle }) => {
             <NavIcon onClick={toggle}>
             <i className="mt-3 fas fa-bars fa-lg text-secondary"></i>
           </NavIcon>
-                <NavbarIcon src={Logo} alt="" className="ms-5"/>
+                <NavbarIcon src={Logo} alt="" className="ms-4"/>
             </NavbarLeft>
             <NavbarLeftInput className="d-none d-md-block w-50">
                 <i className="fas fa-search me-2 ms-2" style={{ marginTop:"12px",color: "#514C5D"}}></i>
