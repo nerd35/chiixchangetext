@@ -22,7 +22,7 @@ const AddGigs = ({ pages, setPages }) => {
         >
           New gig
         </h1>
-        {addgigs ?  <Remuneration setPages={setPages} addgigs={addgigs} setAddGigs={setAddGigs} pages={pages}/> : <BasicData setAddGigs={setAddGigs} addgigs={addgigs} setAddGigs={setAddGigs} pages={pages}/>}
+        {addgigs ?  <Remuneration setPages={setPages} addgigs={addgigs} setAddGigs={setAddGigs} pages={pages}/> : <BasicData setAddGigs={setAddGigs} addgigs={addgigs} setPages={setPages} pages={pages}/>}
         
         
       </AddGigFormSection>
